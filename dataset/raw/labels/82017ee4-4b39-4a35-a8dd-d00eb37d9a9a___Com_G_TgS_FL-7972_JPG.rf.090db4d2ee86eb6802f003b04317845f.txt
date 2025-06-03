@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+6 0.50625 0.4984375 0.98046875 0.99609375
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef5554c9fde414211d156df0c8894953ef3f528c62658ceb47a6dc36009d8b0a
+size 41
+>>>>>>> 18f1b61d (Initial commit)

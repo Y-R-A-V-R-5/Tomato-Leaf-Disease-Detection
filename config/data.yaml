@@ -1,0 +1,32 @@
+Images: ../dataset/raw/images
+Labels: ../dataset/raw/labels
+
+train: ./dataset/train/images
+valid: ./dataset/valid/images
+test: ./dataset/test/images 
+
+nc: 10
+names: ['Tomato Bacterial Spot', 'Tomato Early blight', 'Tomato Late blight', 'Tomato Leaf Mold', 'Tomato Septoria leaf spot', 'Tomato Spider mites Two-spotted spider mite', 'Tomato Target Spot', 'Tomato Yellow Leaf Curl Virus', 'Tomato healthy', 'Tomato mosaic virus']
+
+split_ratios:
+  train: 0.75
+  val: 0.15
+  test: 0.10
+
+label_ext: .txt
+
+augmentation:
+  enabled: false
+  techniques:
+    - horizontal_flip
+    - rotation
+    - brightness_adjustment
+  params:
+    rotation_max_degree: 15
+    brightness_factor: 0.2
+
+paths_are_relative: true
+
+description: >
+  Tomato leaf disease dataset with 10 classes,
+  including empty label images reserved for testing.
