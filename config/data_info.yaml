@@ -1,0 +1,6 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images 
+
+nc: 10
+names: ['Bacterial Spot', 'Early blight', 'Late blight', 'Leaf Mold', 'Septoria leaf spot', 'Two-spotted spider mite', 'Target Spot', 'Yellow Leaf Curl Virus', 'Healthy', 'Mosaic virus']
